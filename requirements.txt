@@ -1,6 +1,16 @@
+# for dataset refactoring
 pandas
+
+# numerical utils
 numpy
+
+# visualization
 seaborn
 matplotlib
-seaborn
+
+# tokenization
 nltk
+
+# cleaning
+re
+string

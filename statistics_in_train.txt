@@ -1,0 +1,11 @@
+label
+romance       7560
+fantasy       7128
+history       2881
+thriller      1480
+crime         1073
+psychology     931
+science        834
+horror         827
+travel         402
+sports         261
