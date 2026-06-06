@@ -7,6 +7,7 @@ numpy
 # visualization
 seaborn
 matplotlib
+wordcloud
 
 # tokenization
 nltk
@@ -14,3 +15,6 @@ nltk
 # cleaning
 re
 string
+
+# models
+scikit-learn
