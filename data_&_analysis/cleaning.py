@@ -48,7 +48,12 @@ word_counts = all_words.value_counts()
 valid_words = set(word_counts[word_counts > 1].index)
 
 data['text'] = data['text'].apply(lambda x: ' '.join([w for w in (str(x)).split() if w in valid_words]))
+# remove rows with empty descriptions
+data = data[data['text'].str.strip() != '']
 data.to_csv('reduced.csv', index=False)
+
+statistics = data['label'].value_counts()
+print(statistics)
 
 unique_words = set()
 for description in data['text']:
