@@ -12,9 +12,5 @@ wordcloud
 # tokenization
 nltk
 
-# cleaning
-re
-string
-
 # models
 scikit-learn
